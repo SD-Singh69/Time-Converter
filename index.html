@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>IST ⇄ JST Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>IST ⇄ JST Converter</h1>
+      <input
+        type="text"
+        id="datetimeInput"
+        placeholder="Paste or type: 13-06-2025 08:00"
+      />
+
+      <select id="direction">
+        <option value="ist-to-jst">IST ➜ JST</option>
+        <option value="jst-to-ist">JST ➜ IST</option>
+      </select>
+
+      <div class="result" id="result">Please enter a valid datetime</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
